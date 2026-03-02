@@ -38,3 +38,6 @@ custom-shader = shaders/cursor_warp.glsl
 
 # Ensure the animation runs even when the window isn't focused (optional)
 custom-shader-animation = always
+
+# Fix general slowness on hyprland (https://github.com/ghostty-org/ghostty/discussions/3224)
+async-backend = epoll
